@@ -133,7 +133,8 @@ Your task:
 - If a field is missing in the data, say it is not available
 - Do NOT add any information that is not present in the data
 - Do NOT hallucinate facts
-- Keep the answer concise and well-structured"""
+- Keep the answer concise and well-structured
+- Answer in full natural sentences."""
 
 
 async def answer_synthesis_node(state: AgentState) -> AgentState:
